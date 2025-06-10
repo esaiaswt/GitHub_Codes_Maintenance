@@ -1,0 +1,25 @@
+Imported libraries found in the repository:
+- 
+- IPython
+- absl
+- argparse
+- codecs
+- csv
+- dataclasses
+- glob
+- matplotlib
+- nbconvert
+- nbformat
+- numpy
+- os
+- re
+- tensorflow
+- threading
+- traceback
+- typing
+- wandb
+
+---
+Deprecated libraries detected and suggestions:
+- tensorflow: Upgrade to TensorFlow 2.x for better support and features.
+  Suggested replacement: tensorflow>=2.0

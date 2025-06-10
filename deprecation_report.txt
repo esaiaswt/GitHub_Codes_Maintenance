@@ -1,0 +1,1 @@
+No deprecated code patterns found.
