@@ -1,1 +1,288 @@
-No deprecated code patterns found.
+Deprecated code patterns detected and suggestions:
+
+File: cloned_repo\content\data\openbot\models.py (Line 29)
+  Code: #     # define input shape, channel dimension (tf convention: channels last) and img input
+  Note: scikit-learn deprecation notice.
+  Suggestion: Check scikit-learn docs for replacement of dim.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\models.py (Line 35)
+  Code: #     for i, f in enumerate(cnn_filters):
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\models.py (Line 56)
+  Code: #     for i, f in enumerate(mlp_filters):
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\models.py (Line 64)
+  Code: #     model = tf.keras.Model(inputs, x)
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of tf.keras.Model.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\models.py (Line 70)
+  Code: # def create_mlp(in_dim, hidden_dim, out_dim, activation="relu", dropout=0.2, name="cmd"):
+  Note: scikit-learn deprecation notice.
+  Suggestion: Check scikit-learn docs for replacement of dim.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\models.py (Line 74)
+  Code: #             hidden_dim, input_dim=in_dim, activation=activation, name=name
+  Note: scikit-learn deprecation notice.
+  Suggestion: Check scikit-learn docs for replacement of dim.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\models.py (Line 79)
+  Code: #     model.add(tf.keras.layers.Dense(out_dim, activation=activation))
+  Note: scikit-learn deprecation notice.
+  Suggestion: Check scikit-learn docs for replacement of dim.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 124)
+  Code: model: tf.keras.Model
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of tf.keras.Model.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 408)
+  Code: config.learning_rate = tr.hyperparameters.LEARNING_RATE
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 413)
+  Code: model: tf.keras.Model
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of tf.keras.Model.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 463)
+  Code: optimizer = tf.keras.optimizers.Adam(learning_rate=tr.hyperparameters.LEARNING_RATE)
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 506)
+  Code: callback.broadcast("message", "Generate plots...")
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 548)
+  Code: callback.broadcast("message", "Generate tflite models...")
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 553)
+  Code: best_train_tflite = utils.generate_tflite(tr.checkpoint_path, best_train_checkpoint)
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 568)
+  Code: best_val_tflite = utils.generate_tflite(tr.checkpoint_path, best_val_checkpoint)
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 584)
+  Code: last_tflite = utils.generate_tflite(tr.checkpoint_path, last_checkpoint)
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 685)
+  Code: #         "--learning_rate",
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 688)
+  Code: #         help="learning rate (default: 0.0003)",
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\train.py (Line 725)
+  Code: #     params.LEARNING_RATE = args.learning_rate
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\utils.py (Line 105)
+  Code: # def generate_tflite(path, filename):
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\utils.py (Line 111)
+  Code: def generate_tflite_from_keras(keras_file_path, custom_objects=None):
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\utils.py (Line 193)
+  Code: #     interpreter = tf.lite.Interpreter(model_path=os.path.join(*parts))
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of Interpreter.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\utils.py (Line 198)
+  Code: model: tf.keras.Model = tf.keras.models.load_model(
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of tf.keras.Model.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\utils.py (Line 209)
+  Code: #     interpreter = tf.lite.Interpreter(model_content=tflite_model)
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of Interpreter.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\utils.py (Line 227)
+  Code: #     # Test the TensorFlow Lite model on input data. If no data provided, generate random data.
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
+File: cloned_repo\content\data\openbot\server\dataset.py (Line 105)
+  Code: for i, l in enumerate(f):
+  Note: TensorFlow deprecation notice.
+  Suggestion: Check TensorFlow docs for replacement of rate.
+  --- VS Code Agent Instructions ---
+  - Locate the above code in the specified file and line.
+  - Review the context and the deprecation note.
+  - Apply the suggested replacement or follow the suggestion to update the code.
+  - Test the updated code to ensure it works as expected.
+  - If the suggestion is unclear, refer to the official documentation for the library.
+
